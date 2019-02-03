@@ -36,7 +36,8 @@ namespace SpiceFire.Areas.Identity.Pages.Account
             }
             else
             {
-                return Page();
+                //Chỉnh chỗ này để load lại trang nè
+                return RedirectToPage("Logout");
             }
         }
     }
